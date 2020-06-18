@@ -1,0 +1,353 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f7f9fc;
+}
+/* nav bar */
+nav{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+    box-shadow: -1px -10px 20px 0px #888;
+}
+
+*, .vanaya{
+    font-family: Oswald, sans-serif;
+    
+}
+/* footer */
+.copyright{
+    position: relative;
+    width: 100%;
+    height: 51px;
+    background-color: rgb(34,47,63);
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 315px;
+    background-color: rgb(238,34,51);
+    
+}
+
+#form{
+    width: 100%;
+    height: 735px;
+    background: url(https://vanaya.co.id/site/wp-content/themes/bin-base/library-theme/images/world_grid.png) center center no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.mid{
+    background: url(https://vanaya.co.id/site/wp-content/uploads/2019/04/businessman-close-up-daydreaming-4502122-e1554399253924-1315x1080.jpg);
+    background-attachment: fixed;
+    background-position: 70% top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* selector */
+.vanaya {
+    background-color: rgb(238,34,51);
+    width: 100%;
+    height: 850px;
+    z-index: 1;
+}
+.img-vanaya{
+    z-index: 3;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+#selector{
+    position: relative;
+    bottom: 100%;
+    z-index: 4;
+}
+.vanaya-coachingcertification, .vanaya-leadershiptalent, .vanaya-culturestrategy{
+    float: left;
+    height: 850px;
+    width: 677px;
+    border: 1px solid green;
+    
+}
+
+.selector-title{
+   font-size: 2.3em;
+   color: white;
+   font-weight: 400;
+   position: relative;
+   top: 160px;
+   left: 35px;
+   display: inline-block;
+}
+.selector-unit{
+    font-size: 4.5em;
+    color: white;
+    font-weight: 400;
+    line-height: 80%;
+    position: relative;
+    display: inline-block;
+    top: 160px;
+    left: 35px;
+}
+.selector-desc{
+    top: 260px;
+    left: 35px;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    font-weight: 400;
+    display: inline-block;
+}
+.selector-par{
+    top: 280px;
+    left: 35px;
+    position: relative;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: serif;
+    display: inline-block;
+}
+.btn-vanaya{
+    top: 310px;
+    left: 35px;
+    position: relative;
+    display: block;
+    color: white;
+    background-color: transparent;
+    font-size: 1.5em;
+    border: 3px solid white;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+/* middle */
+.mid-content{
+    display: inline-block;
+    position: relative;
+    left: 370px;
+    width: 570px;
+    bottom: 45em;
+}
+
+.mid-content-1, .mid-content-2{
+    margin: 30px 0px 30px 0px;
+    color: rgb(238,34,51);
+    font-size: 2em;
+}
+.mid-par-1, .mid-par-2{
+    margin: 30px 0px 30px 0px;
+    font-size: 1em;
+}
+#p-mid, #b-mid{
+    font-family: 'PT Serif';
+    font-weight: 400;
+    color: #555555;
+}
+#b-mid{
+    font-weight: 800;
+}
+#read-more{
+    font-family: 'PT Serif';
+    color: rgb(238,34,51);
+    font-size: 1em;
+    text-decoration: none;
+}
+/* ask us */
+.ask-anything{
+    float: left;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    left: 370px;
+    top: 260px;
+
+}
+.form{
+    float: right;
+    position: relative;
+    font-family: Helvetica;
+    margin: 10px 10px 10px 10px;
+    right: 370px;
+    width: 600px;
+    top: 100px;
+    height: 500px;
+
+}
+/* ask us form */
+#form-info{
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'PT serif';
+    line-height: 28px;
+    color: #555555;
+}
+#first-name, #last-name, #company-name, #p-number, #email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#first-name{
+    top: 25px;
+    display: inline-block;
+    position: relative;
+    left: 32px;
+}
+#last-name{
+    top: 25px;
+    left: 52px;
+    display: inline-block;
+    position: relative;
+
+}
+#company-name{
+    top: 20px;
+    display: inline-block;
+    position: relative;
+    left: 32px;
+}
+#p-number{
+    position: relative;
+    display: inline-block;
+    left: 32px;
+    top: 15px;
+}
+#email{
+    position: relative;
+    display: inline-block;
+    left: 52px;
+    top: 15px;
+}
+#inputbox{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F5F8FA;
+    border: 1px solid #CBD6E2;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 235px;
+}
+#inputcompany{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F5F8FA;
+    border: 1px solid #CBD6E2;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 494px;
+}
+.button-signup{
+    background-color: #FF7A59;
+    font-family: Helvetica;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 7px 25px 7px 25px;
+    cursor: pointer;
+}
+#signup{
+    position: relative;
+    top: 110px;
+    left: 32px;
+}
+/* ask us text */
+.ask-us{
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #EE2233;
+    margin: 29px 0;
+}
+.contact-us{
+    margin: 16px 0px 24px;
+    font-family: 'PT serif';
+    font-size: 18px;
+    color: #555555;
+}
+.contact-number{
+    font-size: 36px;
+    color: #555555;
+    text-decoration: none;
+}
+.contact-number:hover{
+    color: #555555;
+    text-decoration: none;
+}
+.contact-also{
+    font-size: 18px;
+    color: #555555;
+    font-family: 'PT serif';
+    margin: 16px 0 24px;
+    display: block;
+    width: 560px;
+}
+#contact-links{
+    color: #ee2233;
+    font-size: 18px;
+    font-family: 'PT serif';
+}
+#contact-links:hover{
+    text-decoration: none;
+    color: #ee2233;
+}
+/* footer */
+.footer-logo{
+    width: 240;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 380px;
+    top: 75px;
+    padding-bottom: 30px;
+}
+#footer-img{
+    filter: brightness(0) invert(1);
+    height: 73px;
+    width: 150px;
+}
+.footer-block-1{
+    display: inline-block;
+    position: relative;
+    left: 230px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato';
+    top: 150px;
+    padding-bottom: 30px;
+}
+.footer-block-2{
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato';
+    padding-bottom: 30px;
+    top: -6px;
+}
+.footer-col-2{
+    display: inline-block;
+    position: relative;
+    left: 569px;
+}
+.footer-block-3{
+    position: relative;
+    display: inline-block;
+    left: -191px;
+    top: 95px;
+    padding-bottom: 30px;
+}
+.footer-number, .footer-email{
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.footer-number:hover, .footer-email:hover{
+    color: #ffffff;
+}
