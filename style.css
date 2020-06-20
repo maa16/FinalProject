@@ -14,7 +14,27 @@ nav{
     background-color: #ffffff;
     box-shadow: -1px -10px 20px 0px #888;
 }
-
+.nav-area{
+    position: relative;
+    margin: auto;
+    width: 1300px;
+    height: 100%;
+}
+.nav-logo img{
+    position: relative;
+    display: inline-block;
+    max-width: 238px;
+    /* top: 27px; */
+    z-index: 2;
+}
+.nav-logo a {
+    top: 27px;
+    position: relative;
+    display: inline-block;
+    min-width: 238px;
+    min-height: 105.95px;
+    z-index: 3;
+}
 *, .vanaya{
     font-family: Oswald, sans-serif;
     
@@ -72,8 +92,6 @@ nav{
     float: left;
     height: 850px;
     width: 677px;
-    border: 1px solid green;
-    
 }
 
 .selector-title{
@@ -296,9 +314,10 @@ nav{
     color: #ee2233;
 }
 /* footer */
+/* footer col 1 */
 .footer-logo{
     width: 240;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     position: relative;
     left: 380px;
@@ -329,6 +348,7 @@ nav{
     padding-bottom: 30px;
     top: -6px;
 }
+/* footer col 2 */
 .footer-col-2{
     display: inline-block;
     position: relative;
@@ -350,4 +370,97 @@ nav{
 }
 .footer-number:hover, .footer-email:hover{
     color: #ffffff;
+}
+/* footer col 3 */
+.footer-col-3{
+    position: relative;
+    float: right;
+    margin-right: 370px;
+}
+#sub-menu-1{
+    position: relative;
+    list-style-type: none;
+    right: 30px;
+    bottom: 28px;
+}
+#menu-name-1{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Lato';
+    position: relative;
+    right: 208px;
+    bottom: 4px;
+    color: #ffffff;
+}
+#sub{
+    position: relative;
+    float: left;
+}
+#sub-name{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Lato';
+}
+#menu-name-2{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Lato';
+    position: relative;
+    right: 208px;
+    bottom: 30px;
+    color: #ffffff;
+}
+#sub-menu-2{
+    position: relative;
+    list-style-type: none;
+    right: 30px;
+    bottom: 55px;
+}
+.menu-3{
+    display: inline-block;
+}
+#menu-name-3{
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    right: 208px;
+    bottom: 56px;
+    color: #ffffff;
+}
+#sub-menu-3{
+    position: relative;
+    list-style-type: none;
+    right: 30px;
+    bottom: 81px;
+}
+#social-logo{
+    color: #ffffff;
+    font-size: 30px;
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+}
+#social-logo-link{
+    color: #ffffff;
+}
+.social-media{
+    position: relative;
+    right: 207px;
+    bottom: 77px;
+}
+/* site copyright */
+.site-end{
+    position: relative;
+    left: 380px;
+    margin: 13px 0 13px 0;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Lato';
+    color: #90979F;
+}
+#copyright-link{
+    font-size: 15px;
+    font-family: 'Lato';
+    color: #90979F;
 }
